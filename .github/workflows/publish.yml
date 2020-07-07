@@ -13,12 +13,12 @@ jobs:
           - name: docker hub
             registry: registry.hub.docker.com
             password: DOCKER_TOKEN
-            repository: ahmadnassri/node-puppeteer
+            repository: ahmadnassri/mermaid-cli
 
           - name: github package registry
             password: GITHUB_TOKEN
             registry: docker.pkg.github.com
-            repository: ${{ github.event.repository.full_name }}/node-puppeteer
+            repository: ${{ github.event.repository.full_name }}/mermaid-cli
 
     steps:
       - name: checkout
