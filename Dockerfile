@@ -1,5 +1,5 @@
 # ---- base image ----
-FROM ahmadnassri/node-puppeteer:2.0.4
+FROM ahmadnassri/node-puppeteer:1.0.1
 
 # ---- meta data ----
 LABEL name="mermaid-cli"
