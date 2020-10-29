@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "docker-mermaid-cli",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^8.8.2-beta.8"
+  }
+}
