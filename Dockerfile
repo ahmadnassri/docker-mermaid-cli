@@ -11,8 +11,6 @@ USER pptruser
 # ---- install dependencies globally ----
 WORKDIR /home/pptruser
 COPY src/* /home/pptruser/
-
-# ---- install packages globally ----
 RUN node /home/pptruser/install.js
 
 # ---- create app directory ----
