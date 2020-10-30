@@ -10,11 +10,11 @@ USER pptruser
 
 # ---- install dependencies globally ----
 WORKDIR /home/pptruser
-COPY package.json package-lock.json /home/pptruser/
+COPY src/package.json src/package-lock.json /home/pptruser/
 RUN npm install --global
 
 # ---- puppeteer config file
-COPY config.json /home/pptruser
+COPY src/config.json /home/pptruser
 
 # ---- create app directory ----
 WORKDIR /app
