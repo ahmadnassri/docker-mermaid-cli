@@ -4,9 +4,6 @@ a slim container with ready-to-run Mermaid CLI using both Node & Puppeteer
 
 [![license][license-img]][license-url]
 [![release][release-img]][release-url]
-[![super linter][super-linter-img]][super-linter-url]
-[![semantic][semantic-img]][semantic-url]
-
 [![size][size-img]][size-url]
 [![docker][docker-img]][docker-url]
 [![github][github-img]][github-url]
@@ -38,12 +35,6 @@ services:
 
 [release-url]: https://github.com/ahmadnassri/docker-mermaid-cli/releases
 [release-img]: https://badgen.net/github/release/ahmadnassri/docker-mermaid-cli
-
-[super-linter-url]: https://github.com/ahmadnassri/docker-mermaid-cli/actions?query=workflow%3Asuper-linter
-[super-linter-img]: https://github.com/ahmadnassri/docker-mermaid-cli/workflows/super-linter/badge.svg
-
-[semantic-url]: https://github.com/ahmadnassri/docker-mermaid-cli/actions?query=workflow%3Arelease
-[semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue
 
 [size-url]: https://hub.docker.com/r/ahmadnassri/mermaid-cli
 [size-img]: https://badgen.net/docker/size/ahmadnassri/mermaid-cli
