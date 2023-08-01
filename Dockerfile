@@ -15,3 +15,5 @@ RUN node /home/pptruser/install.js
 
 # ---- create app directory ----
 WORKDIR /app
+
+HEALTHCHECK NONE
