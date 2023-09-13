@@ -8,6 +8,9 @@ a slim container with ready-to-run Mermaid CLI using both Node & Puppeteer
 [![docker][docker-img]][docker-url]
 [![github][github-img]][github-url]
 
+> **WARNING**  
+> UNMAINTAINED PROJECT
+
 ## Usage
 
 create a `docker-compose.yml` with the following:
@@ -37,7 +40,7 @@ services:
 [release-img]: https://badgen.net/github/release/ahmadnassri/docker-mermaid-cli
 
 [size-url]: https://hub.docker.com/r/ahmadnassri/mermaid-cli
-[size-img]: https://badgen.net/docker/size/ahmadnassri/mermaid-cli
+[size-img]: https://badgen.net/docker/size/ahmadnassri/mermaid-cli?label=image%20size
 
 [docker-url]: https://hub.docker.com/r/ahmadnassri/mermaid-cli
 [docker-img]: https://badgen.net/badge/icon/docker%20hub?icon=docker&label

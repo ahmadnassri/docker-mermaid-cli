@@ -1,3 +1,6 @@
+> **WARNING**  
+> UNMAINTAINED PROJECT
+
 ## Usage
 
 create a `docker-compose.yml` with the following:
